@@ -427,7 +427,8 @@ a:focus-visible,
   transform: rotate(45deg);
 }
 
-.dice-glyph::first-letter {
+.dice-glyph-value {
+  display: inline-block;
   transform: rotate(-45deg);
 }
 
@@ -812,7 +813,9 @@ a:focus-visible,
 
   .hero-visual {
     min-height: 380px;
+    overflow: clip;
     transform: scale(0.86);
+    transform-origin: center;
     margin: -20px 0;
   }
 
