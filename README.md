@@ -7,6 +7,8 @@ Home of the Dihor GameKit family: reusable, modular building blocks for game dev
 - [Dihor.GameKit.Dice](https://github.com/PawelWielga/Dihor.GameKit.Dice) — framework-agnostic 3D dice rolling with Three.js and cannon-es.
 - [Dihor.GameKit.Networking](https://github.com/PawelWielga/Dihor.GameKit.Networking) — transport-neutral multiplayer communication for .NET, TypeScript and Dart consumers.
 - [Dihor.GameKit.Board](https://github.com/PawelWielga/Dihor.GameKit.Board) — board and pawn movement primitives, currently in development.
+- **Dihor.GameKit.Cards** — planned reusable toolkit for decks, hands, shuffling and common card operations.
+- **Dihor.GameKit.Coin** — planned reusable toolkit for coin flips, randomization and visual presentation.
 
 ## Landing page
 

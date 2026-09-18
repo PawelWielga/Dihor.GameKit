@@ -1,0 +1,262 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Dihor GameKit is a family of reusable, modular building blocks for game development: dice, networking, board mechanics and more.">
+  <meta name="theme-color" content="#0b0f14">
+  <meta property="og:title" content="Dihor GameKit">
+  <meta property="og:description" content="Reusable building blocks for games. Pick only the GameKits your project needs.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://pawelwielga.github.io/Dihor.GameKit/">
+  <title>Dihor GameKit</title>
+  <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+  <div class="page-shell">
+    <header class="site-header">
+      <a class="brand" href="#top" aria-label="Dihor GameKit home">
+        <span class="brand-mark" aria-hidden="true">D</span>
+        <span class="brand-copy">
+          <strong>DIHOR</strong>
+          <span>GameKit</span>
+        </span>
+      </a>
+
+      <nav class="site-nav" aria-label="Main navigation">
+        <a href="#gamekits">GameKits</a>
+        <a href="#principles">Principles</a>
+        <a class="nav-github" href="https://github.com/PawelWielga/Dihor.GameKit">GitHub</a>
+      </nav>
+    </header>
+
+    <main id="top">
+      <section class="hero" aria-labelledby="hero-title">
+        <div class="hero-copy">
+          <p class="eyebrow">Reusable game development building blocks</p>
+          <h1 id="hero-title">Build the game.<br><span>Reuse the hard parts.</span></h1>
+          <p class="hero-lead">
+            Dihor GameKit is a growing family of focused libraries for common game systems.
+            Use one, combine several, or keep them completely independent.
+          </p>
+
+          <div class="hero-actions">
+            <a class="button button-primary" href="#gamekits">Explore GameKits</a>
+            <a class="button button-secondary" href="https://github.com/PawelWielga">View on GitHub</a>
+          </div>
+
+          <ul class="hero-facts" aria-label="Project highlights">
+            <li><strong>Modular</strong><span>install only what you need</span></li>
+            <li><strong>Reusable</strong><span>game-agnostic foundations</span></li>
+            <li><strong>Open</strong><span>public source and documentation</span></li>
+          </ul>
+        </div>
+
+        <div class="hero-visual" aria-hidden="true">
+          <div class="orbit orbit-one"></div>
+          <div class="orbit orbit-two"></div>
+          <div class="core-mark">
+            <span class="core-d">D</span>
+            <span class="core-label">GAMEKIT</span>
+          </div>
+          <span class="node node-dice">DICE</span>
+          <span class="node node-networking">NET</span>
+          <span class="node node-board">BOARD</span>
+        </div>
+      </section>
+
+      <section class="catalog" id="gamekits" aria-labelledby="catalog-title">
+        <div class="section-heading">
+          <p class="eyebrow">The toolkit</p>
+          <h2 id="catalog-title">Choose the pieces your game needs.</h2>
+          <p>Each GameKit solves one area and stays useful outside any single game or product.</p>
+        </div>
+
+        <div class="kit-grid">
+          <article class="kit-card kit-card-featured">
+            <div class="kit-card-top">
+              <span class="kit-icon" aria-hidden="true">
+                <span class="dice-glyph"><span class="dice-glyph-value">20</span></span>
+              </span>
+              <span class="status status-ready">Preview available</span>
+            </div>
+            <div class="kit-card-body">
+              <p class="kit-namespace">Dihor.GameKit</p>
+              <h3>Dice</h3>
+              <p>
+                Configurable 3D dice rolling with real-time physics, deterministic planning,
+                replay support and a framework-agnostic overlay API.
+              </p>
+              <ul class="tag-list" aria-label="Dice technologies">
+                <li>TypeScript</li>
+                <li>Three.js</li>
+                <li>cannon-es</li>
+              </ul>
+            </div>
+            <div class="kit-card-actions">
+              <a href="https://pawelwielga.github.io/Dihor.GameKit.Dice/">Live demo <span aria-hidden="true">↗</span></a>
+              <a href="https://github.com/PawelWielga/Dihor.GameKit.Dice">Repository <span aria-hidden="true">→</span></a>
+            </div>
+          </article>
+
+          <article class="kit-card">
+            <div class="kit-card-top">
+              <span class="kit-icon kit-icon-network" aria-hidden="true">
+                <span class="network-dot network-dot-a"></span>
+                <span class="network-dot network-dot-b"></span>
+                <span class="network-dot network-dot-c"></span>
+                <span class="network-line network-line-a"></span>
+                <span class="network-line network-line-b"></span>
+              </span>
+              <span class="status status-ready">Preview available</span>
+            </div>
+            <div class="kit-card-body">
+              <p class="kit-namespace">Dihor.GameKit</p>
+              <h3>Networking</h3>
+              <p>
+                Transport-neutral multiplayer communication with LAN, WebRTC and SignalR paths,
+                reconnect support and cross-language protocol compatibility.
+              </p>
+              <ul class="tag-list" aria-label="Networking technologies">
+                <li>.NET</li>
+                <li>TypeScript</li>
+                <li>Dart</li>
+              </ul>
+            </div>
+            <div class="kit-card-actions">
+              <a href="https://github.com/PawelWielga/Dihor.GameKit.Networking">Repository <span aria-hidden="true">→</span></a>
+            </div>
+          </article>
+
+          <article class="kit-card">
+            <div class="kit-card-top">
+              <span class="kit-icon kit-icon-board" aria-hidden="true">
+                <span class="board-square board-a"></span>
+                <span class="board-square board-b"></span>
+                <span class="board-square board-c"></span>
+                <span class="board-pawn"></span>
+              </span>
+              <span class="status status-building">In development</span>
+            </div>
+            <div class="kit-card-body">
+              <p class="kit-namespace">Dihor.GameKit</p>
+              <h3>Board</h3>
+              <p>
+                Reusable foundations for board-based games, focused on moving pieces across a board
+                without tying the mechanics to one specific game.
+              </p>
+              <ul class="tag-list" aria-label="Board focus areas">
+                <li>Boards</li>
+                <li>Pieces</li>
+                <li>Movement</li>
+              </ul>
+            </div>
+            <div class="kit-card-actions">
+              <a href="https://github.com/PawelWielga/Dihor.GameKit.Board">Repository <span aria-hidden="true">→</span></a>
+            </div>
+          </article>
+
+          <article class="kit-card">
+            <div class="kit-card-top">
+              <span class="kit-icon kit-icon-cards" aria-hidden="true">
+                <span class="card-back"></span>
+                <span class="card-front">A♠</span>
+              </span>
+              <span class="status status-planned">Planned</span>
+            </div>
+            <div class="kit-card-body">
+              <p class="kit-namespace">Dihor.GameKit</p>
+              <h3>Cards</h3>
+              <p>
+                A reusable card-game toolkit for decks, shuffling, drawing, hands and common
+                card operations without imposing rules from any particular game.
+              </p>
+              <ul class="tag-list" aria-label="Cards focus areas">
+                <li>Decks</li>
+                <li>Hands</li>
+                <li>Shuffling</li>
+              </ul>
+            </div>
+          </article>
+
+          <article class="kit-card">
+            <div class="kit-card-top">
+              <span class="kit-icon kit-icon-coin" aria-hidden="true">
+                <span class="coin-glyph">H</span>
+              </span>
+              <span class="status status-planned">Planned</span>
+            </div>
+            <div class="kit-card-body">
+              <p class="kit-namespace">Dihor.GameKit</p>
+              <h3>Coin</h3>
+              <p>
+                A focused coin-flip toolkit for configurable heads-or-tails outcomes,
+                visual presentation and reusable randomization across games.
+              </p>
+              <ul class="tag-list" aria-label="Coin focus areas">
+                <li>Coin flip</li>
+                <li>Randomization</li>
+                <li>Animation</li>
+              </ul>
+            </div>
+          </article>
+
+          <article class="kit-card kit-card-next">
+            <div class="next-plus" aria-hidden="true">+</div>
+            <div>
+              <p class="kit-namespace">Dihor.GameKit</p>
+              <h3>More to come</h3>
+              <p>The family is designed to grow without turning into one monolithic engine.</p>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section class="principles" id="principles" aria-labelledby="principles-title">
+        <div class="section-heading section-heading-compact">
+          <p class="eyebrow">Design principles</p>
+          <h2 id="principles-title">Small libraries. Clear boundaries.</h2>
+        </div>
+
+        <div class="principle-grid">
+          <article>
+            <span class="principle-number">01</span>
+            <h3>Composable by design</h3>
+            <p>GameKits can be used together, but none of them needs the entire family to be useful.</p>
+          </article>
+          <article>
+            <span class="principle-number">02</span>
+            <h3>Game-agnostic core</h3>
+            <p>Reusable mechanics and infrastructure stay separate from product-specific rules and UX.</p>
+          </article>
+          <article>
+            <span class="principle-number">03</span>
+            <h3>Practical APIs</h3>
+            <p>The public surface should stay understandable for a game developer without exposing every internal detail.</p>
+          </article>
+        </div>
+      </section>
+
+      <section class="closing">
+        <div>
+          <p class="eyebrow">Dihor GameKit</p>
+          <h2>Use the parts that help.<br>Own the game you build.</h2>
+        </div>
+        <a class="button button-primary" href="https://github.com/PawelWielga?tab=repositories&q=Dihor.GameKit">Browse repositories</a>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <a class="brand brand-small" href="#top" aria-label="Back to top">
+        <span class="brand-mark" aria-hidden="true">D</span>
+        <span class="brand-copy">
+          <strong>DIHOR</strong>
+          <span>GameKit</span>
+        </span>
+      </a>
+      <p>Reusable building blocks for game development.</p>
+      <a href="https://github.com/PawelWielga">github.com/PawelWielga</a>
+    </footer>
+  </div>
+</body>
+</html>
