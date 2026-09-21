@@ -10,6 +10,8 @@ Home of the Dihor GameKit family: reusable, modular building blocks for game dev
 - **Dihor.GameKit.Cards** — planned reusable toolkit for decks, hands, shuffling and common card operations.
 - **Dihor.GameKit.Coin** — planned reusable toolkit for coin flips, randomization and visual presentation.
 
+For the family-level priority needed to finish PartyBeam before expanding the kit set, see [docs/partybeam-first-mvp-roadmap.md](docs/partybeam-first-mvp-roadmap.md).
+
 ## Landing page
 
 The public landing page lives in `site/` and is deployed to GitHub Pages from `main`.
