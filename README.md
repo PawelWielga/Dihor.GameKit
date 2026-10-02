@@ -2,6 +2,14 @@
 
 Home of the Dihor GameKit family: reusable, modular building blocks for game development.
 
+## Relationship to PartyBeam
+
+Dihor.GameKit is an independent family of reusable game-development libraries. PartyBeam is an important consumer, but the GameKits are not PartyBeam modules.
+
+`PartyBeam.GameSdk` is intentionally separate: it owns PartyBeam-specific Game Contract/package tooling, while Dihor packages remain usable by unrelated games and applications.
+
+Extraction rule: add or extend a GameKit only for genuinely reusable mechanics/infrastructure with a coherent public API. Keep product-specific behavior in the product/game that owns it.
+
 ## GameKits
 
 - [Dihor.GameKit.Dice](https://github.com/PawelWielga/Dihor.GameKit.Dice) — framework-agnostic 3D dice rolling with Three.js and cannon-es.
